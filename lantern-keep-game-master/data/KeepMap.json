@@ -1,0 +1,91 @@
+{
+  "start_room": "gatehouse",
+  "rooms": [
+    {
+      "id": "gatehouse",
+      "name": "Gatehouse",
+      "description": "A cramped stone gatehouse. The portcullis behind you has rusted shut, and a draft whistles through the arrow slits.",
+      "dark": false,
+      "exits": [
+        { "direction": "north", "to": "courtyard" }
+      ],
+      "items": ["empty_lantern"]
+    },
+    {
+      "id": "courtyard",
+      "name": "Courtyard",
+      "description": "An overgrown courtyard under a bruised purple sky. A dry fountain sits in the middle, full of dead leaves.",
+      "dark": false,
+      "exits": [
+        { "direction": "south", "to": "gatehouse" },
+        { "direction": "east", "to": "kitchen" },
+        { "direction": "west", "to": "library", "locked_by": "brass_key" },
+        { "direction": "north", "to": "great_hall" }
+      ],
+      "items": []
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "description": "A long kitchen that still smells faintly of rosemary. Copper pots hang from hooks, and a trapdoor in the floor leads down.",
+      "dark": false,
+      "exits": [
+        { "direction": "west", "to": "courtyard" },
+        { "direction": "down", "to": "cellar" }
+      ],
+      "items": ["lamp_oil", "bread"]
+    },
+    {
+      "id": "cellar",
+      "name": "Cellar",
+      "description": "A low, damp cellar lined with empty wine racks. Something glints near an old blacksmith's anvil.",
+      "dark": true,
+      "exits": [
+        { "direction": "up", "to": "kitchen" }
+      ],
+      "items": ["brass_key", "iron_anvil"]
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "description": "Towering shelves sag under mildewed books. A reading desk by the window holds a scrap of parchment.",
+      "dark": false,
+      "exits": [
+        { "direction": "east", "to": "courtyard" }
+      ],
+      "items": ["torn_map", "tower_key"]
+    },
+    {
+      "id": "great_hall",
+      "name": "Great Hall",
+      "description": "A vast hall with a cold hearth and a long table set for a feast nobody ate. A heavy stone slab is set into the floor, and a spiral stair climbs into the dark.",
+      "dark": false,
+      "exits": [
+        { "direction": "south", "to": "courtyard" },
+        { "direction": "up", "to": "bell_tower", "locked_by": "tower_key" },
+        { "direction": "down", "to": "crypt", "sealed_until": "midnight_bell" }
+      ],
+      "items": []
+    },
+    {
+      "id": "bell_tower",
+      "name": "Bell Tower",
+      "description": "The top of the keep. A great bronze bell hangs above you, its rope dangling within reach. You can see the whole valley from here.",
+      "dark": false,
+      "exits": [
+        { "direction": "down", "to": "great_hall" }
+      ],
+      "items": ["bell_rope"]
+    },
+    {
+      "id": "crypt",
+      "name": "Crypt",
+      "description": "A silent crypt beneath the keep. On a stone plinth rests a crown that glows like the last coal in a fire.",
+      "dark": true,
+      "exits": [
+        { "direction": "up", "to": "great_hall" }
+      ],
+      "items": ["ember_crown"]
+    }
+  ]
+}

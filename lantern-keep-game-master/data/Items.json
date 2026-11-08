@@ -1,0 +1,81 @@
+{
+  "inventory_weight_limit": 10,
+  "items": [
+    {
+      "id": "empty_lantern",
+      "name": "Empty Lantern",
+      "description": "A tin lantern with a cracked glass pane. Its reservoir is bone dry.",
+      "weight": 2,
+      "takeable": true,
+      "combine": { "with": "lamp_oil", "produces": "lit_lantern" }
+    },
+    {
+      "id": "lamp_oil",
+      "name": "Flask of Lamp Oil",
+      "description": "A small stoppered flask of amber oil.",
+      "weight": 1,
+      "takeable": true
+    },
+    {
+      "id": "lit_lantern",
+      "name": "Lit Lantern",
+      "description": "The lantern burns with a steady golden flame. Dark places hold no secrets from you now.",
+      "weight": 2,
+      "takeable": true,
+      "light_source": true
+    },
+    {
+      "id": "bread",
+      "name": "Heel of Bread",
+      "description": "Stale, but it would do in a pinch.",
+      "weight": 1,
+      "takeable": true,
+      "edible": true
+    },
+    {
+      "id": "brass_key",
+      "name": "Brass Key",
+      "description": "A heavy brass key with a book engraved on its bow.",
+      "weight": 1,
+      "takeable": true
+    },
+    {
+      "id": "tower_key",
+      "name": "Tower Key",
+      "description": "A long iron key, cold to the touch, with a tiny bell etched into it.",
+      "weight": 1,
+      "takeable": true
+    },
+    {
+      "id": "torn_map",
+      "name": "Torn Map",
+      "description": "Half a map of the keep. Someone has scrawled a note in the margin.",
+      "weight": 1,
+      "takeable": true,
+      "hint": "The slab beneath the hall opens only when the bell wakes the keep at the turning of the night."
+    },
+    {
+      "id": "iron_anvil",
+      "name": "Iron Anvil",
+      "description": "A blacksmith's anvil. It must weigh as much as a pony.",
+      "weight": 12,
+      "takeable": true
+    },
+    {
+      "id": "bell_rope",
+      "name": "Bell Rope",
+      "description": "A thick, frayed rope that disappears up into the bell.",
+      "weight": 0,
+      "takeable": false,
+      "action": "ring_bell"
+    },
+    {
+      "id": "ember_crown",
+      "name": "Ember Crown",
+      "description": "A crown of blackened gold that glows from within. Legends say whoever holds it is master of Lantern Keep.",
+      "weight": 3,
+      "takeable": true,
+      "win_condition": true
+    }
+  ]
+}

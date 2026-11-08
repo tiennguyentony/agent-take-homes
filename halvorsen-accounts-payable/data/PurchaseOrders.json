@@ -1,0 +1,57 @@
+[
+  {
+    "po_number": "PO-5001",
+    "vendor_id": "V-100",
+    "currency": "USD",
+    "requester": "Dana Whitfield (Production)",
+    "lines": [
+      { "line": 1, "description": "Cold-rolled steel sheet, 16 ga", "qty_ordered": 200, "unit_price": 84.50, "qty_received": 200 }
+    ]
+  },
+  {
+    "po_number": "PO-5002",
+    "vendor_id": "V-200",
+    "currency": "USD",
+    "requester": "Luis Ortega (Assembly)",
+    "lines": [
+      { "line": 1, "description": "Hex bolt M10, box of 100", "qty_ordered": 50, "unit_price": 42.00, "qty_received": 50 },
+      { "line": 2, "description": "Lock washer M10, box of 100", "qty_ordered": 50, "unit_price": 11.00, "qty_received": 50 }
+    ]
+  },
+  {
+    "po_number": "PO-5003",
+    "vendor_id": "V-300",
+    "currency": "USD",
+    "requester": "Grace Liu (Logistics)",
+    "lines": [
+      { "line": 1, "description": "Inbound freight, Toronto to Minneapolis, full truckload", "qty_ordered": 1, "unit_price": 3850.00, "qty_received": 1 }
+    ]
+  },
+  {
+    "po_number": "PO-5004",
+    "vendor_id": "V-400",
+    "currency": "CAD",
+    "requester": "Dana Whitfield (Production)",
+    "lines": [
+      { "line": 1, "description": "Copper coil assembly, 3-ton", "qty_ordered": 40, "unit_price": 212.00, "qty_received": 40 }
+    ]
+  },
+  {
+    "po_number": "PO-5005",
+    "vendor_id": "V-500",
+    "currency": "USD",
+    "requester": "Luis Ortega (Assembly)",
+    "lines": [
+      { "line": 1, "description": "Contactor, 40 A, 24 V coil", "qty_ordered": 120, "unit_price": 18.75, "qty_received": 80 }
+    ]
+  },
+  {
+    "po_number": "PO-5006",
+    "vendor_id": "V-100",
+    "currency": "USD",
+    "requester": "Dana Whitfield (Production)",
+    "lines": [
+      { "line": 1, "description": "Galvanized steel sheet, 18 ga", "qty_ordered": 100, "unit_price": 96.00, "qty_received": 100 }
+    ]
+  }
+]

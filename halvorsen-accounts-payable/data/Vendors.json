@@ -1,0 +1,57 @@
+[
+  {
+    "vendor_id": "V-100",
+    "name": "Northstar Steel Supply",
+    "currency": "USD",
+    "payment_terms": "Net 30",
+    "net_days": 30,
+    "early_pay_discount": null,
+    "bank_details_changed_on": "2026-11-10",
+    "bank_change_verified": true,
+    "ap_contact": "billing@northstar-steel.example"
+  },
+  {
+    "vendor_id": "V-200",
+    "name": "Apex Fasteners Co.",
+    "currency": "USD",
+    "payment_terms": "2/10 Net 30",
+    "net_days": 30,
+    "early_pay_discount": { "percent": 2.0, "within_days": 10 },
+    "bank_details_changed_on": "2024-03-02",
+    "bank_change_verified": true,
+    "ap_contact": "ar@apexfasteners.example"
+  },
+  {
+    "vendor_id": "V-300",
+    "name": "Coastline Logistics",
+    "currency": "USD",
+    "payment_terms": "Net 45",
+    "net_days": 45,
+    "early_pay_discount": null,
+    "bank_details_changed_on": "2026-11-24",
+    "bank_change_verified": false,
+    "ap_contact": "accounts@coastline-logistics.example"
+  },
+  {
+    "vendor_id": "V-400",
+    "name": "Maple Ridge Components Ltd.",
+    "currency": "CAD",
+    "payment_terms": "Net 30",
+    "net_days": 30,
+    "early_pay_discount": null,
+    "bank_details_changed_on": "2025-08-19",
+    "bank_change_verified": true,
+    "ap_contact": "finance@mapleridge.example"
+  },
+  {
+    "vendor_id": "V-500",
+    "name": "Brightline Electrical",
+    "currency": "USD",
+    "payment_terms": "Net 30",
+    "net_days": 30,
+    "early_pay_discount": null,
+    "bank_details_changed_on": "2025-01-15",
+    "bank_change_verified": true,
+    "ap_contact": "invoices@brightline-electric.example"
+  }
+]
